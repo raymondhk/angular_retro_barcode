@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  colors = ['Aqua', 'Blue', 'Aquamarine', 'DarkCyan', 'SpringGreen', 'PaleGreen'];
+  num1 = Math.floor(Math.random() * 6);
+  num2 = Math.floor(Math.random() * 6);
+  num3 = Math.floor(Math.random() * 6);
+  num4 = Math.floor(Math.random() * 6);
+  num5 = Math.floor(Math.random() * 6);
+  num6 = Math.floor(Math.random() * 6);
 }
